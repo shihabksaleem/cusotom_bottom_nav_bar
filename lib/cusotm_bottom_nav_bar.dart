@@ -48,7 +48,7 @@ class _CustomBottomNavBarState extends State<CustomBottomNavBar> {
                                     shape: BoxShape.circle,
                                     gradient: LinearGradient(
                                         end: Alignment.centerRight,
-                                        colors: [Colors.red, Colors.yellow])),
+                                        colors: [Colors.red, Colors.amber])),
                                 child: Icon(Icons.home,
                                     color: selectedIndex == 0
                                         ? Colors.white
@@ -78,7 +78,7 @@ class _CustomBottomNavBarState extends State<CustomBottomNavBar> {
                                     shape: BoxShape.circle,
                                     gradient: LinearGradient(
                                         end: Alignment.centerRight,
-                                        colors: [Colors.red, Colors.yellow])),
+                                        colors: [Colors.red, Colors.amber])),
                                 child: Icon(Icons.receipt_long_sharp,
                                     color: selectedIndex == 1
                                         ? Colors.white
@@ -115,7 +115,7 @@ class _CustomBottomNavBarState extends State<CustomBottomNavBar> {
                                     shape: BoxShape.circle,
                                     gradient: LinearGradient(
                                         end: Alignment.centerRight,
-                                        colors: [Colors.red, Colors.yellow])),
+                                        colors: [Colors.red, Colors.amber])),
                                 child: Icon(Icons.groups_2_outlined,
                                     color: selectedIndex == 2
                                         ? Colors.white
@@ -145,7 +145,7 @@ class _CustomBottomNavBarState extends State<CustomBottomNavBar> {
                                     shape: BoxShape.circle,
                                     gradient: LinearGradient(
                                         end: Alignment.centerRight,
-                                        colors: [Colors.red, Colors.yellow])),
+                                        colors: [Colors.red, Colors.amber])),
                                 child: Icon(
                                     Icons.screen_search_desktop_outlined,
                                     color: selectedIndex == 3
@@ -202,7 +202,7 @@ class _CustomBottomNavBarState extends State<CustomBottomNavBar> {
                           height: 60,
                           width: 60,
                           decoration: BoxDecoration(
-                            color: Colors.yellow,
+                            color: Colors.amber,
                             shape: BoxShape.circle,
                           ),
                           child: Center(
